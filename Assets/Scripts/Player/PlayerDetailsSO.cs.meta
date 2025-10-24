@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: a92769cdb23494e4eb08a84a96946578
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - playerPrefab: {instanceID: 0}
+  - runtimeAnimatorController: {instanceID: 0}
+  - startingWeapon: {instanceID: 0}
+  - playerMinimapIcon: {instanceID: 0}
+  - playerHandSprite: {instanceID: 0}
+  - body: {instanceID: 0}
+  - head: {instanceID: 0}
+  - hair: {instanceID: 0}
+  - backHair: {instanceID: 0}
+  - leftEye: {instanceID: 0}
+  - rightEye: {instanceID: 0}
+  - nostrilL: {instanceID: 0}
+  - nostrilR: {instanceID: 0}
+  - mouth: {instanceID: 0}
+  - armL: {instanceID: 0}
+  - armR: {instanceID: 0}
+  - legL: {instanceID: 0}
+  - legR: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

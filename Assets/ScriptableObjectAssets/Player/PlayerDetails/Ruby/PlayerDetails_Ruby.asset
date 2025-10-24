@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a92769cdb23494e4eb08a84a96946578, type: 3}
+  m_Name: PlayerDetails_Ruby
+  m_EditorClassIdentifier: 
+  playerCharacterName: Ruby
+  playerPrefab: {fileID: 262300682489069637, guid: 4595aacd06eedd6428d2760c29827f63, type: 3}
+  runtimeAnimatorController: {fileID: 9100000, guid: 54c7dbcb703df5542a55b548ce9439ba, type: 2}
+  playerHealthAmount: 5
+  isImmuneAfterHit: 1
+  hitImmunityTime: 2
+  startingWeapon: {fileID: 11400000, guid: ee122e13898771a4cb74b6df9267460e, type: 2}
+  startingWeaponList:
+  - {fileID: 11400000, guid: ee122e13898771a4cb74b6df9267460e, type: 2}
+  - {fileID: 11400000, guid: 02a742a78b3481e4eaf283fb941cc81b, type: 2}
+  playerMinimapIcon: {fileID: 21300000, guid: de5da4b4ee017e54296f18ceaa08b217, type: 3}
+  playerHandSprite: {fileID: 925343294, guid: c228f2e2be7d4c14ba150e5d8effca79, type: 3}

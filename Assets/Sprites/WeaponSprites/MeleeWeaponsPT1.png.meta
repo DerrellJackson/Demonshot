@@ -1,0 +1,1432 @@
+fileFormatVersion: 2
+guid: f49f62e02d6d1934da60160d0848dcca
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 448
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4745a6b0f86cf474690eeb58c9e51117
+      internalID: -1996928199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 448
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52567842c3312e94ab91765b59b07feb
+      internalID: 680688818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_2
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 448
+        width: 5
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d26f9edb133884bb75b7493f4a5645
+      internalID: 1693737680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_3
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 448
+        width: 5
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e69ceffcdc4a844e8a86641ee7bab11
+      internalID: 1079029134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_4
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 448
+        width: 5
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981be01faeff9e94b971120b668087fa
+      internalID: -1402035442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_5
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 448
+        width: 5
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fdf7b69e51113749bd847692a8dc30f
+      internalID: 1929472748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_6
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 448
+        width: 5
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2e2708f81b6924f9e04504d8e07ead
+      internalID: -1516034510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_7
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 448
+        width: 5
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e32fee167a64d459c71edbe47aa700
+      internalID: 1835961131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_8
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 448
+        width: 5
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319c9b923767b7d48a0426e6daa594e7
+      internalID: -813622975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_9
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 448
+        width: 11
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066109db838ce3e43a94d24cc19da0f7
+      internalID: -1307993341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_10
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 448
+        width: 11
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2ea9839f7c1264f97836262c238d25
+      internalID: -497030087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_11
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 448
+        width: 11
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32cb207ee319a664fa6a259017be57fe
+      internalID: 756758771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_12
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 448
+        width: 11
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d72ae1f1b92604782a8b1e1db381ac
+      internalID: 1917899279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_13
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 448
+        width: 11
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2246a5cbc666d49a471b9f4c6584b3
+      internalID: 1164650826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_14
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 448
+        width: 11
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55bfc43d58233c499b74efe0aefa76e
+      internalID: 2095508082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_15
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 448
+        width: 11
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a73a730c79dd204190901eebc7be211
+      internalID: 740371971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_16
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 448
+        width: 7
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752db6963a8c0bd488ba67add1a2cbc2
+      internalID: 445827005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_17
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 448
+        width: 11
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fcb7924bc311144ae3c86def72b835
+      internalID: -346201904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_18
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 448
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19adb97262491af45bff8b2be5d7bd93
+      internalID: -835006628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_19
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 448
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1746e0a8265c8347aa6e09d3e6d7a6b
+      internalID: -544444942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_20
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 448
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23aa03c008cc6e543bb879c50991b988
+      internalID: 1636834669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_21
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 448
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ac59378e349334a9ee81621854b6c6
+      internalID: 1897459813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_22
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 448
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c6abee15f5cd540a01829386eaff18
+      internalID: 2049970702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_23
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 448
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f02430bb28fe64da389ddfdb290743
+      internalID: 1460955574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_24
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 448
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26d9f18f69de804a9d987b73ba85074
+      internalID: -1027605824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_25
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 448
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58cebffc7a43eed49819c51775fa89e8
+      internalID: 171013164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_26
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 448
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b41f5d336e1fe4186f5b7c40fa5469
+      internalID: 1443975633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_27
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 448
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5393eb19c2efaf2449afcc2c5ccea498
+      internalID: -1987255092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_28
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8d69e6954053644a664959de11212c
+      internalID: -1823817829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_29
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 432
+        width: 4
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b53a11014fa642419a1cb0c029a8d6b
+      internalID: -1216112048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_30
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 432
+        width: 10
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95a02acc07211c4c80c59f8227b28b2
+      internalID: -2038639749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_31
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 448
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ac9406ef6b8b44bb6ccce3fcd427e1
+      internalID: 854349882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_32
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 448
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7a13e47cc1f294a922f84e477db2a0
+      internalID: -804167420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 15
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e025fa57d3c894b8091579bdfb7e31
+      internalID: -932213630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_34
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 384
+        width: 15
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b3208fe685cb4a498da7d8852c7b591
+      internalID: 789074687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_35
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 384
+        width: 15
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05346b72d8aa4ec419bfbf301e5b0c11
+      internalID: 1469557545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_36
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 384
+        width: 15
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7aa0ba39d70b4c4eabe3a06567554b4
+      internalID: 1256492409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 15
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91c6af8d95da614e9d6542c7d4cf61b
+      internalID: 1668497710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_38
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 384
+        width: 15
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34193f278aba84e48ae7650cd40b4342
+      internalID: 1723759074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_39
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 15
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55cbba000d3d16344a968eae3dd2a984
+      internalID: 1647222342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_40
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 384
+        width: 15
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114c61f87dc514a4e902495720c5a52f
+      internalID: 122146286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 15
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5461ee737079369458f9f21a60793080
+      internalID: 1662492105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_42
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 384
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935d1287f043dd5409be4e886294aeb6
+      internalID: 1218624620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_43
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 384
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb58c8eb2a6b16444a89321c3452864a
+      internalID: 1415466982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_44
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 384
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae19c3c7ce708f44593198b76675940d
+      internalID: 1285395233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_45
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 384
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc0996d7fd64054686538066935e475
+      internalID: -1241605151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_46
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 384
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6435e9c680b2186479faf52cb6c3c416
+      internalID: -999522706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_47
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 384
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab6c5c769a114b43a6d08b085fdc45b
+      internalID: -2052250529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_48
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 384
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee7b5ee2763b2e408af03612035ed36
+      internalID: -1629356377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_49
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 384
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553dc29d25ec61d429ea0c7a80236163
+      internalID: 517314489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_50
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 384
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8266c3b481f5ee342b6a804e75134259
+      internalID: -1769980499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_51
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 384
+        width: 11
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd083245df3b70f41aec3cda10708895
+      internalID: -589531874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_52
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 384
+        width: 11
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d8f1b70fa726f4d933812c8ca4c76e
+      internalID: 865706527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_53
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 384
+        width: 11
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263d16f86016ea54ca397c6be1e169e1
+      internalID: 470341886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_54
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 384
+        width: 11
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7455cbd68e05f564ab8cc0a04ac44a7f
+      internalID: -903271251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_55
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 384
+        width: 11
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85196f4b5d0d33459a355a94df49ef3
+      internalID: 256244553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_56
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 384
+        width: 11
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ba0ae62623c464ba85fb43570da9fb
+      internalID: 141563906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_57
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 384
+        width: 11
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98f7ad0ad21a4644b63f38eb79b12de
+      internalID: -532148618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeWeaponsPT1_58
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 384
+        width: 4
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b995e76805bca3a4c99fd02d1722a3f6
+      internalID: -38899806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      MeleeWeaponsPT1_52: 865706527
+      MeleeWeaponsPT1_26: 1443975633
+      MeleeWeaponsPT1_35: 1469557545
+      MeleeWeaponsPT1_54: -903271251
+      MeleeWeaponsPT1_21: 1897459813
+      MeleeWeaponsPT1_56: 141563906
+      MeleeWeaponsPT1_43: 1415466982
+      MeleeWeaponsPT1_37: 1668497710
+      MeleeWeaponsPT1_51: -589531874
+      MeleeWeaponsPT1_29: -1216112048
+      MeleeWeaponsPT1_49: 517314489
+      MeleeWeaponsPT1_45: -1241605151
+      MeleeWeaponsPT1_50: -1769980499
+      MeleeWeaponsPT1_11: 756758771
+      MeleeWeaponsPT1_28: -1823817829
+      MeleeWeaponsPT1_17: -346201904
+      MeleeWeaponsPT1_31: 854349882
+      MeleeWeaponsPT1_53: 470341886
+      MeleeWeaponsPT1_55: 256244553
+      MeleeWeaponsPT1_6: -1516034510
+      MeleeWeaponsPT1_19: -544444942
+      MeleeWeaponsPT1_0: -1996928199
+      MeleeWeaponsPT1_4: -1402035442
+      MeleeWeaponsPT1_14: 2095508082
+      MeleeWeaponsPT1_34: 789074687
+      MeleeWeaponsPT1_44: 1285395233
+      MeleeWeaponsPT1_1: 680688818
+      MeleeWeaponsPT1_15: 740371971
+      MeleeWeaponsPT1_33: -932213630
+      MeleeWeaponsPT1_30: -2038639749
+      MeleeWeaponsPT1_12: 1917899279
+      MeleeWeaponsPT1_2: 1693737680
+      MeleeWeaponsPT1_41: 1662492105
+      MeleeWeaponsPT1_10: -497030087
+      MeleeWeaponsPT1_32: -804167420
+      MeleeWeaponsPT1_40: 122146286
+      MeleeWeaponsPT1_58: -38899806
+      MeleeWeaponsPT1_22: 2049970702
+      MeleeWeaponsPT1_23: 1460955574
+      MeleeWeaponsPT1_8: -813622975
+      MeleeWeaponsPT1_13: 1164650826
+      MeleeWeaponsPT1_20: 1636834669
+      MeleeWeaponsPT1_7: 1835961131
+      MeleeWeaponsPT1_48: -1629356377
+      MeleeWeaponsPT1_57: -532148618
+      MeleeWeaponsPT1_38: 1723759074
+      MeleeWeaponsPT1_3: 1079029134
+      MeleeWeaponsPT1_16: 445827005
+      MeleeWeaponsPT1_25: 171013164
+      MeleeWeaponsPT1_47: -2052250529
+      MeleeWeaponsPT1_24: -1027605824
+      MeleeWeaponsPT1_42: 1218624620
+      MeleeWeaponsPT1_9: -1307993341
+      MeleeWeaponsPT1_18: -835006628
+      MeleeWeaponsPT1_36: 1256492409
+      MeleeWeaponsPT1_5: 1929472748
+      MeleeWeaponsPT1_46: -999522706
+      MeleeWeaponsPT1_27: -1987255092
+      MeleeWeaponsPT1_39: 1647222342
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

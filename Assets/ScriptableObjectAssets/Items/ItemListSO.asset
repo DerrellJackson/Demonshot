@@ -1,0 +1,5458 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7725cc4fe17d71a44bc34ab3cfdf87ca, type: 3}
+  m_Name: ItemListSO
+  m_EditorClassIdentifier: 
+  itemDetails:
+  - itemCode: 10000
+    itemType: 4
+    itemDescription: Raw Chicken Leg
+    itemSprite: {fileID: -1728386317, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Cook it first!
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 9.8
+  - itemCode: 10001
+    itemType: 3
+    itemDescription: Cooked Chicken Leg
+    itemSprite: {fileID: 16877000, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: A meal a little bird friend gave to you.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 12.5
+  - itemCode: 10002
+    itemType: 4
+    itemDescription: Meat?
+    itemSprite: {fileID: -1305305425, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Ew.. can you cook it?
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 7.25
+  - itemCode: 10003
+    itemType: 3
+    itemDescription: Cooked Flesh
+    itemSprite: {fileID: -850480312, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: This doesn't look right...
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 9.25
+  - itemCode: 10004
+    itemType: 4
+    itemDescription: Raw Pig Meat
+    itemSprite: {fileID: 92079954, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Cook it first!
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 9.95
+  - itemCode: 10005
+    itemType: 3
+    itemDescription: Cooked Pig
+    itemSprite: {fileID: -953869722, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Poor piggy.. enjoy your meal
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 13.25
+  - itemCode: 10006
+    itemType: 14
+    itemDescription: Flag
+    itemSprite: {fileID: 932294945, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Just a flag.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10007
+    itemType: 14
+    itemDescription: Flag
+    itemSprite: {fileID: 1645698325, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Just a flag.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10008
+    itemType: 14
+    itemDescription: Flag
+    itemSprite: {fileID: -1441002940, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Just a flag.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10009
+    itemType: 14
+    itemDescription: Flag
+    itemSprite: {fileID: 126657016, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Just a flag.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10010
+    itemType: 14
+    itemDescription: Flag
+    itemSprite: {fileID: 474972319, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Just a flag.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10011
+    itemType: 14
+    itemDescription: Flag
+    itemSprite: {fileID: 1605983198, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Just a flag.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10012
+    itemType: 14
+    itemDescription: Flag
+    itemSprite: {fileID: 1082021475, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Just a flag.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10013
+    itemType: 14
+    itemDescription: Flag
+    itemSprite: {fileID: -691214558, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Just a flag.
+    itemUseGridRadius: 0
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10014
+    itemType: 14
+    itemDescription: Flag
+    itemSprite: {fileID: -1850103594, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Just a flag.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10015
+    itemType: 14
+    itemDescription: Flag
+    itemSprite: {fileID: -986052380, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Just a flag.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10016
+    itemType: 14
+    itemDescription: Flag
+    itemSprite: {fileID: 756168327, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Just a flag.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10017
+    itemType: 14
+    itemDescription: Flag
+    itemSprite: {fileID: -862641376, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Just a flag.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10018
+    itemType: 14
+    itemDescription: Flag
+    itemSprite: {fileID: 734207868, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Just a flag.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10019
+    itemType: 14
+    itemDescription: Flag
+    itemSprite: {fileID: 54243319, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Just a flag.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10020
+    itemType: 14
+    itemDescription: Flag
+    itemSprite: {fileID: -328944147, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Just a flag.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10021
+    itemType: 14
+    itemDescription: Flag
+    itemSprite: {fileID: 602741829, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Just a flag.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10022
+    itemType: 14
+    itemDescription: Flag
+    itemSprite: {fileID: -262199253, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Just a flag.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10023
+    itemType: 14
+    itemDescription: Flag
+    itemSprite: {fileID: -2082490544, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Just a flag.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10024
+    itemType: 14
+    itemDescription: Flag
+    itemSprite: {fileID: -1813133544, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Just a flag.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10025
+    itemType: 14
+    itemDescription: Flag
+    itemSprite: {fileID: 1898357125, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Just a flag.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10026
+    itemType: 14
+    itemDescription: Flag
+    itemSprite: {fileID: -2122582653, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Just a flag.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10027
+    itemType: 14
+    itemDescription: Flag
+    itemSprite: {fileID: -643247987, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Just a flag.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10028
+    itemType: 14
+    itemDescription: Flag
+    itemSprite: {fileID: -150645974, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Just a flag.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10029
+    itemType: 14
+    itemDescription: Flag
+    itemSprite: {fileID: -454870654, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Just a flag.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10030
+    itemType: 14
+    itemDescription: Flag
+    itemSprite: {fileID: -1608786040, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Just a flag.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10031
+    itemType: 14
+    itemDescription: Flag
+    itemSprite: {fileID: 1726661978, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Just a flag.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10032
+    itemType: 15
+    itemDescription: Stick
+    itemSprite: {fileID: -1024129438, guid: 10a5166e14abed8478330c7e215550cc, type: 3}
+    itemLongDescription: A sticky stick
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10033
+    itemType: 8
+    itemDescription: Pickaxe
+    itemSprite: {fileID: 1324359629, guid: 10a5166e14abed8478330c7e215550cc, type: 3}
+    itemLongDescription: A basic pickaxe..
+    itemUseGridRadius: 1
+    itemUserRadius: 1
+    isStartingItem: 1
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10034
+    itemType: 7
+    itemDescription: Axe
+    itemSprite: {fileID: 1872915733, guid: 10a5166e14abed8478330c7e215550cc, type: 3}
+    itemLongDescription: A basic axe..
+    itemUseGridRadius: 1
+    itemUserRadius: 1
+    isStartingItem: 1
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10035
+    itemType: 6
+    itemDescription: Hoe
+    itemSprite: {fileID: -1133493702, guid: 10a5166e14abed8478330c7e215550cc, type: 3}
+    itemLongDescription: A basic hoe..
+    itemUseGridRadius: 1
+    itemUserRadius: 1
+    isStartingItem: 1
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10036
+    itemType: 11
+    itemDescription: Fishing Rod
+    itemSprite: {fileID: -1257738164, guid: 10a5166e14abed8478330c7e215550cc, type: 3}
+    itemLongDescription: An old fishermans rod..
+    itemUseGridRadius: 1
+    itemUserRadius: 1
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10037
+    itemType: 5
+    itemDescription: Watering Can
+    itemSprite: {fileID: -1148386963, guid: 10a5166e14abed8478330c7e215550cc, type: 3}
+    itemLongDescription: A basic functioning watering can..
+    itemUseGridRadius: 1
+    itemUserRadius: 1
+    isStartingItem: 1
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10038
+    itemType: 14
+    itemDescription: Piggy Bank
+    itemSprite: {fileID: 118346818, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: A nice decoration to make people think you have money.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10039
+    itemType: 10
+    itemDescription: Blue Backpack
+    itemSprite: {fileID: 649054698, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: If you plan on adventuring take this with you!
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10040
+    itemType: 10
+    itemDescription: Red Backpack
+    itemSprite: {fileID: 1763640823, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: If you plan on adventuring take this with you!
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10041
+    itemType: 21
+    itemDescription: Purple Pulse
+    itemSprite: {fileID: -1814367417, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: This drink will push you to your limit!
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10042
+    itemType: 3
+    itemDescription: Doughnut
+    itemSprite: {fileID: 57214125, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Mmmm doughnuts
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10043
+    itemType: 15
+    itemDescription: Wheat
+    itemSprite: {fileID: 548291430, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Make bread, feed your animals, but don't let it go to waste!
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10044
+    itemType: 3
+    itemDescription: Cheese
+    itemSprite: {fileID: 1885793191, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Tastes good on a burger. Maybe a mouse likes this as well?
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10045
+    itemType: 3
+    itemDescription: Block of Cheese
+    itemSprite: {fileID: 32926511, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: This smells weird.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10046
+    itemType: 21
+    itemDescription: Honey Bottle
+    itemSprite: {fileID: 356713183, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Collected from beehives and very tasty!
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10047
+    itemType: 22
+    itemDescription: Honey Swab
+    itemSprite: {fileID: -400490325, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Collect honey with this!
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10048
+    itemType: 21
+    itemDescription: Cherry Rush
+    itemSprite: {fileID: -1770605126, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: The taste of this is sweeter than an energy drink!
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10049
+    itemType: 21
+    itemDescription: Bubbling Push
+    itemSprite: {fileID: -1411751410, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: People at the bar drink this stuff often. It is a cheap
+      affordable booze.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10050
+    itemType: 21
+    itemDescription: Bubbling Shot
+    itemSprite: {fileID: -2125805313, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: People at the bar drink this stuff often. Similar to bubbling
+      push, but with a slightly higher price tag.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10051
+    itemType: 21
+    itemDescription: 'Smiling Apple '
+    itemSprite: {fileID: 1105139337, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: 'An expensive alcoholic beverage most tourists get. '
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10052
+    itemType: 5
+    itemDescription: Bucket of water
+    itemSprite: {fileID: -40199452, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Filled with water. Used for a multiple of things.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10053
+    itemType: 3
+    itemDescription: Plum
+    itemSprite: {fileID: -385944534, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: A tasty fruit.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10054
+    itemType: 3
+    itemDescription: Peach
+    itemSprite: {fileID: -1672812513, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: A tasty fruit, a common use in drinks.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10055
+    itemType: 3
+    itemDescription: Tomato
+    itemSprite: {fileID: 565771277, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: It is a tomato not a tomatoe or a tomata.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10056
+    itemType: 3
+    itemDescription: Red Cherry
+    itemSprite: {fileID: -943754364, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: This fruit is said to be one of the sweetest here.  It is
+      rather famous in this area.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10057
+    itemType: 3
+    itemDescription: Red Apple
+    itemSprite: {fileID: 936903886, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: A common fruit that many people enjoy!
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10058
+    itemType: 3
+    itemDescription: Yellow Apple
+    itemSprite: {fileID: -1705753162, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: A common fruit that many people enjoy just as much as regular
+      apples!
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10059
+    itemType: 3
+    itemDescription: Green Apple
+    itemSprite: {fileID: -897138636, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: A common fruit that many people dislike because it is rather
+      bitter.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10060
+    itemType: 3
+    itemDescription: Orange
+    itemSprite: {fileID: -156399016, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: A tasty common fruit many used to make juice with.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10061
+    itemType: 3
+    itemDescription: Pumpkin
+    itemSprite: {fileID: -1276607504, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Great for carving as well as making a pie out of!
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10062
+    itemType: 3
+    itemDescription: Carrot
+    itemSprite: {fileID: -119033022, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: A common veggie people eat with stew.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10063
+    itemType: 3
+    itemDescription: Bread
+    itemSprite: {fileID: 535205007, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Wait, how long has that been in your backpack?
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10064
+    itemType: 3
+    itemDescription: Lettuce
+    itemSprite: {fileID: -2095230500, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Great ingredient for cooking with!
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10065
+    itemType: 3
+    itemDescription: Red Mushroom
+    itemSprite: {fileID: -1896966924, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: You can eat it, but it is better cooked.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10066
+    itemType: 3
+    itemDescription: Green Mushroom
+    itemSprite: {fileID: -646282712, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: This may be edible raw, cook it to be safe.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10067
+    itemType: 23
+    itemDescription: Sunflower
+    itemSprite: {fileID: 677642294, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Do not play the "does he love me" game with these. These
+      flowers have a bad history in this area often disappointing people.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10068
+    itemType: 3
+    itemDescription: Strawberry
+    itemSprite: {fileID: 716559229, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: mmm... Tasty!
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10069
+    itemType: 3
+    itemDescription: Cake
+    itemSprite: {fileID: -2059614319, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Happy birthday to... wait who's birthday was it again?
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10070
+    itemType: 3
+    itemDescription: Cookie
+    itemSprite: {fileID: -662437388, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: Yummy!
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10071
+    itemType: 21
+    itemDescription: Strawberry Paradise
+    itemSprite: {fileID: -463315048, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: This sweet drink is often overpriced, but doesn't taste
+      too bad.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10072
+    itemType: 21
+    itemDescription: Bubbling Tantrum
+    itemSprite: {fileID: 1941328202, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: This bitter drink is a favorite among every towns drunks.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10073
+    itemType: 21
+    itemDescription: Strawberry Shot
+    itemSprite: {fileID: 176710633, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: This little shot will keep you up and active longer than
+      it will take hell to freeze over!
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10074
+    itemType: 21
+    itemDescription: Bitter Revenge
+    itemSprite: {fileID: -1943120427, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: This drink is rather bitter and often used to sober someone
+      up.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10075
+    itemType: 23
+    itemDescription: Pink Flower
+    itemSprite: {fileID: -250095381, guid: 21d79d2772ea7214fbb453c934ed574b, type: 3}
+    itemLongDescription: This pink flower is a favorite in the area!
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10076
+    itemType: 4
+    itemDescription: Seagull Meat
+    itemSprite: {fileID: -176865260, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: You are a monster for even holding this.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10077
+    itemType: 3
+    itemDescription: Cooked Seagull Meat
+    itemSprite: {fileID: 536370553, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: You are 100% going to Hell for this.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10078
+    itemType: 4
+    itemDescription: Raw Meat Ball
+    itemSprite: {fileID: 11848613, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: 'Just a ball of meat. '
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10079
+    itemType: 3
+    itemDescription: Cooked Meat Ball
+    itemSprite: {fileID: -272109455, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: Just a ball of.. wait why would you even cook this?
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10080
+    itemType: 3
+    itemDescription: Spicy Pepper
+    itemSprite: {fileID: 728402319, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: This is very hot!
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10081
+    itemType: 3
+    itemDescription: Corn On The Cob
+    itemSprite: {fileID: 1638948231, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: A great snack!
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10082
+    itemType: 3
+    itemDescription: Broccoli
+    itemSprite: {fileID: -47149236, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: A healthy food.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10083
+    itemType: 3
+    itemDescription: Pineapple
+    itemSprite: {fileID: 909508419, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: Who lives in a Pineapple under the sea..?
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10084
+    itemType: 1
+    itemDescription: Egg (Brown)
+    itemSprite: {fileID: 610495099, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: Hatches something!
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 1
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10085
+    itemType: 1
+    itemDescription: Egg (White)
+    itemSprite: {fileID: -4312168, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: Hatches something, but if you are hungry also works nice
+      scrambled!
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 1
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10086
+    itemType: 1
+    itemDescription: Egg (Yellow)
+    itemSprite: {fileID: 1866289265, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: Hatches something rare!
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 1
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10087
+    itemType: 1
+    itemDescription: Egg (Black)
+    itemSprite: {fileID: -205045360, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: Hatches something dark and mysterious!
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10088
+    itemType: 1
+    itemDescription: Egg (Gray)
+    itemSprite: {fileID: 1674227987, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: Hatches something, but I have no clue as to what!!
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 1
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10089
+    itemType: 1
+    itemDescription: Egg (Purple)
+    itemSprite: {fileID: -778318260, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: Hatches something with magical capabilities!
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 1
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10090
+    itemType: 1
+    itemDescription: Egg (Red)
+    itemSprite: {fileID: -212262123, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: Hatches an evil creature!
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 1
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10091
+    itemType: 1
+    itemDescription: Egg (Green)
+    itemSprite: {fileID: 146443790, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: Hatches something small!
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 1
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10092
+    itemType: 1
+    itemDescription: Egg (Blue)
+    itemSprite: {fileID: -1563878984, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: Hatches a friendly creature!
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 1
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10093
+    itemType: 1
+    itemDescription: Egg (Cyan)
+    itemSprite: {fileID: 1016995257, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: Hatches a larger creature!
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 1
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10094
+    itemType: 23
+    itemDescription: Three Leaf Clover
+    itemSprite: {fileID: 1221855974, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: Place along the walls of your home!
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10095
+    itemType: 15
+    itemDescription: Leaf
+    itemSprite: {fileID: -2118509149, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: It was found on a plant, bush, or tree. Nothing special.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10096
+    itemType: 15
+    itemDescription: Brown Leaf
+    itemSprite: {fileID: -1824250441, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: It was found on a brown plant, bush, or tree. Nothing special.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10097
+    itemType: 21
+    itemDescription: Water Bottle
+    itemSprite: {fileID: -176128739, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: Drink up!
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10098
+    itemType: 4
+    itemDescription: Raw Rabbit
+    itemSprite: {fileID: -981369167, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: You are a sinner. Your time will come.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10099
+    itemType: 3
+    itemDescription: Cooked Rabbit
+    itemSprite: {fileID: -49625916, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: Oh great.. you over cooked it as well. Regret everything
+      you have done.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10100
+    itemType: 15
+    itemDescription: Slime Ball
+    itemSprite: {fileID: 625575594, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: Did you kill a slime for this?
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10101
+    itemType: 3
+    itemDescription: Turnip
+    itemSprite: {fileID: 56212059, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: Great snack as well as recipe for making other things!
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10102
+    itemType: 3
+    itemDescription: Radish
+    itemSprite: {fileID: 1833513805, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: Great snack as well as recipe for making other things!
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10103
+    itemType: 3
+    itemDescription: Garlic
+    itemSprite: {fileID: 1083574960, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: Great for cooking with! You can eat it as well.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10104
+    itemType: 3
+    itemDescription: Blueberries
+    itemSprite: {fileID: 1889192620, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: Sweet berry commonly used in the drinks around here
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10105
+    itemType: 3
+    itemDescription: Tarberry
+    itemSprite: {fileID: 250895445, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: A bitter berry commonly used in bitter alcoholic drinks.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10106
+    itemType: 3
+    itemDescription: Salmonberry
+    itemSprite: {fileID: 1427740246, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: A sweeter berry often used in jams, jellies, and baked goods.
+      Also served with Salmon!
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10107
+    itemType: 3
+    itemDescription: Cranberry
+    itemSprite: {fileID: -1160860595, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: A tasty berry found all through the farms.  Can be used
+      in jams, jellies, and multiple baking goods. It also makes a great drink!
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10108
+    itemType: 3
+    itemDescription: Maquiberry
+    itemSprite: {fileID: 568276897, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: This is a grape like berry. It is not overly sweet and is
+      often used in medicines!
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10109
+    itemType: 3
+    itemDescription: ' Energyberry'
+    itemSprite: {fileID: -1412366764, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: This berry is very sweet and used in energy drinks due to
+      its high sugar content!
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10110
+    itemType: 3
+    itemDescription: Sweetberry
+    itemSprite: {fileID: -800289238, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: This berry is every towns favorite. This berry is used in
+      everything especially drinks!
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 1
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10111
+    itemType: 15
+    itemDescription: Stone
+    itemSprite: {fileID: 1947017833, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: A basic crafting material.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10112
+    itemType: 2
+    itemDescription: Iron
+    itemSprite: {fileID: -69634103, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: A basic crafting material found in the mines.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10113
+    itemType: 2
+    itemDescription: Redvein
+    itemSprite: {fileID: 1796523801, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: A rare ore found in the mines.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10114
+    itemType: 2
+    itemDescription: Sulfurnium
+    itemSprite: {fileID: -628139242, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: An ore that provides the same uses of Sulfur as well as
+      being strong enough to make gear out of.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10115
+    itemType: 2
+    itemDescription: Jade
+    itemSprite: {fileID: 741262036, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: Found in crystals, this is a rather strong material!
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10116
+    itemType: 2
+    itemDescription: Aqualium
+    itemSprite: {fileID: 1136772947, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: An ore found in moist areas.  An ore like this should be
+      kept away from electricity.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10117
+    itemType: 2
+    itemDescription: Steel
+    itemSprite: {fileID: -672955, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: A common find in the mines. Has many uses.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10118
+    itemType: 2
+    itemDescription: Pixium
+    itemSprite: {fileID: 109084124, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: A really rare and magical ore. This ore is named after the
+      pixies that are said to hang around it.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10119
+    itemType: 2
+    itemDescription: Apatite
+    itemSprite: {fileID: 623621970, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: Found in the mines and is part of a group of phosphate minerals.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10120
+    itemType: 2
+    itemDescription: Copper
+    itemSprite: {fileID: 635425904, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: A great ore with many uses. Too bad it is so common.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10121
+    itemType: 2
+    itemDescription: Purple Pixium
+    itemSprite: {fileID: 835727303, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: A very rare ore. Good find! This is so rare it is a flex
+      to have even one of these.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10122
+    itemType: 2
+    itemDescription: Darkonite
+    itemSprite: {fileID: 1664914494, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: A very rare ore. Has an evil history. It is saying holding
+      these will cause a curse on your home.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10123
+    itemType: 2
+    itemDescription: Purple Pixium Diamond
+    itemSprite: {fileID: 1648306494, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: A rare diamond. These are worth a fortune and are found
+      in the homes of pixies.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10124
+    itemType: 2
+    itemDescription: Redvein Diamond
+    itemSprite: {fileID: -1137544336, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: A rare diamond. These are said to be worn by a few of the
+      princes of Hell.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10125
+    itemType: 2
+    itemDescription: Fake Diamond
+    itemSprite: {fileID: 1596413748, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: It is worth nothing. Hope you can fool someone into taking
+      it.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10126
+    itemType: 2
+    itemDescription: Lime Green Diamond
+    itemSprite: {fileID: -321779847, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: This is actually made of Jade. It is not a color many go
+      for, but is expensive anyways.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10127
+    itemType: 2
+    itemDescription: Blue Diamond
+    itemSprite: {fileID: 1098415787, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: This is really rare. It can only be found on royalty.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10128
+    itemType: 2
+    itemDescription: Orange Diamond
+    itemSprite: {fileID: -563123931, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: This is a common find for diamonds. Still expensive.. just
+      not as expensive.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10129
+    itemType: 2
+    itemDescription: Cyan Diamond
+    itemSprite: {fileID: -1780875099, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: This is a very expensive diamond. This is worth at least
+      your home.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10130
+    itemType: 2
+    itemDescription: Pink Pixium Diamond
+    itemSprite: {fileID: 412583043, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: A rare diamond. These are worth a fortune and are found
+      in the homes of pixies.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10131
+    itemType: 2
+    itemDescription: Pale Diamond
+    itemSprite: {fileID: -1527721905, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: Believed to be a holy relic, this diamond should be placed
+      inside a church.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10132
+    itemType: 2
+    itemDescription: Dark Diamond
+    itemSprite: {fileID: 1515884438, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: Believed to come out of a volcano, it definitely holds value.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10133
+    itemType: 2
+    itemDescription: Light Green Diamond
+    itemSprite: {fileID: 1674753722, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: A slightly rare diamond, it is a popular choice among the
+      rich.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10134
+    itemType: 14
+    itemDescription: Calendar
+    itemSprite: {fileID: -407839188, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: See events that will be happening.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10135
+    itemType: 14
+    itemDescription: Book
+    itemSprite: {fileID: -1413711986, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: Only nerds read these things.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10136
+    itemType: 14
+    itemDescription: Purple Book
+    itemSprite: {fileID: 1961075319, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: It contains some magical knowledge or something probably.
+      It is purple why wouldn't it?
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10137
+    itemType: 14
+    itemDescription: Reddish Book
+    itemSprite: {fileID: -1036752272, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: 'Rich like these books for some reason. '
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 1
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 10138
+    itemType: 14
+    itemDescription: Dolphin Plushie
+    itemSprite: {fileID: -671979875, guid: b080ddf9f8cb8e949a0ce3622436ee78, type: 3}
+    itemLongDescription: Best item in this game hands down.
+    itemUseGridRadius: 2
+    itemUserRadius: 0
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 11000
+    itemType: 0
+    itemDescription: Pumpkin Seed
+    itemSprite: {fileID: -1255791839, guid: cedf00dbd6bb8584aa2d392d6825d176, type: 3}
+    itemLongDescription: Plant this to grow a nice round pumpkin!
+    itemUseGridRadius: 2
+    itemUserRadius: 1
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 11001
+    itemType: 0
+    itemDescription: Carrot Seeds
+    itemSprite: {fileID: 1609790845, guid: cedf00dbd6bb8584aa2d392d6825d176, type: 3}
+    itemLongDescription: Plant this to grow some carrots!
+    itemUseGridRadius: 2
+    itemUserRadius: 1
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 11002
+    itemType: 0
+    itemDescription: Lettuce Seeds
+    itemSprite: {fileID: -1805878148, guid: cedf00dbd6bb8584aa2d392d6825d176, type: 3}
+    itemLongDescription: Plant this to grow lettuce!
+    itemUseGridRadius: 2
+    itemUserRadius: 1
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 11003
+    itemType: 0
+    itemDescription: Strawberry Seeds
+    itemSprite: {fileID: 1652767851, guid: cedf00dbd6bb8584aa2d392d6825d176, type: 3}
+    itemLongDescription: Plant this to grow delicious strawberries!
+    itemUseGridRadius: 2
+    itemUserRadius: 1
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12000
+    itemType: 17
+    itemDescription: Key Sword
+    itemSprite: {fileID: -1996928199, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A sword in the shape of a key. Rather powerful it also seems
+      to be able to unlock something. Maybe you can find out what that is?
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12001
+    itemType: 17
+    itemDescription: Fudge Blade
+    itemSprite: {fileID: 680688818, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: This weapon attracts everything at it. Good or evil it does
+      not matter! Everyone wants a taste of it!
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12002
+    itemType: 17
+    itemDescription: Redvein Slicer
+    itemSprite: {fileID: 1693737680, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A sharp and thin blade made of redvein. Very fast and strong
+      it is a great choice of a weapon.
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12003
+    itemType: 17
+    itemDescription: Apatite Slicer
+    itemSprite: {fileID: 1079029134, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A sharp and thin blade made of apatite. Very fast and strong
+      it is a great choice of a weapon.
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12004
+    itemType: 17
+    itemDescription: Sulfurnium Slicer
+    itemSprite: {fileID: -1402035442, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A sharp and thin blade made of sulfurnium. Very fast and
+      strong it is a great choice of a weapon as it also seems to have an electric
+      feeling.
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12005
+    itemType: 17
+    itemDescription: Jade Slicer
+    itemSprite: {fileID: 1929472748, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A sharp and thin blade made of Jade. Very fast and strong
+      it is a great choice of a weapon.
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12006
+    itemType: 17
+    itemDescription: Pixium Slicer
+    itemSprite: {fileID: -1516034510, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A sharp and thin blade made of Pixium. Very fast and strong
+      it is a great choice of a weapon as it also feels magical somehow.
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12007
+    itemType: 17
+    itemDescription: Darkonite Slicer
+    itemSprite: {fileID: 1835961131, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A sharp and thin blade made of Darkonite. Very fast and
+      strong it is a great choice of a weapon as it also feels like a demon is trapped
+      inside it..
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12008
+    itemType: 17
+    itemDescription: Aqualium Slicer
+    itemSprite: {fileID: -813622975, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A sharp and thin blade made of Aqualium. Very fast and strong
+      it is a great choice of a weapon as it also feels as if you have the ocean
+      on your side.
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12009
+    itemType: 12
+    itemDescription: Wooden Shortsword
+    itemSprite: {fileID: -1307993341, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A basic wooden shortsword. Nothing great about it.
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12010
+    itemType: 17
+    itemDescription: Pixium Shortsword
+    itemSprite: {fileID: -497030087, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A pixium shortsword. A good sturdy choice. Unfortunately
+      it does not feel magical anymore.
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12011
+    itemType: 17
+    itemDescription: Copper Shortsword
+    itemSprite: {fileID: 756758771, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A copper shortsword. A good weapon for display. Combat though...
+      not so much.
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12012
+    itemType: 17
+    itemDescription: Jade Shortsword
+    itemSprite: {fileID: 1917899279, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A jade shortsword. A good weapon for striking enemies with
+      speed. Not too powerful though.
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12013
+    itemType: 17
+    itemDescription: Purple Pixium Shortsword
+    itemSprite: {fileID: 1164650826, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: May death take them all.
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12014
+    itemType: 17
+    itemDescription: Apatite Shortsword
+    itemSprite: {fileID: 2095508082, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: An apatite shortsword. A good weapon for striking enemies
+      with speed. Not too powerful though, but also looks nice.
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12015
+    itemType: 17
+    itemDescription: Sulfurnium Shortsword
+    itemSprite: {fileID: 740371971, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A sulfurnium shortsword. A good weapon for striking enemies
+      with speed. Not too powerful though, but it is the fastest shortsword known.
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12016
+    itemType: 17
+    itemDescription: Baseball Bat
+    itemSprite: {fileID: 445827005, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: This thing is great for hitting baseballs. Why are you using
+      this on enemies?
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 1
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12017
+    itemType: 17
+    itemDescription: Spikey Baseball Bat
+    itemSprite: {fileID: -346201904, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: Wow, great job ruining this. This was worth millions because
+      of the Babe Ruth signature... worthless now great job!
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12018
+    itemType: 17
+    itemDescription: Electric Rod
+    itemSprite: {fileID: -835006628, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: 'Made with sulfurnium this is a shockingly fast and strong
+      weapon. '
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12019
+    itemType: 17
+    itemDescription: Copper Spellblade
+    itemSprite: {fileID: -544444942, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: Probably one of the only good weapon uses of copper. This
+      blade contains magic inside it.
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12020
+    itemType: 17
+    itemDescription: Sulfurnium Spellblade
+    itemSprite: {fileID: 1636834669, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A very fast magical blade! Has an electrical shock to it
+      as well!
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12021
+    itemType: 17
+    itemDescription: Jade Spellblade
+    itemSprite: {fileID: 1897459813, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A green magical blade. It is very powerful and fun to use.
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12022
+    itemType: 17
+    itemDescription: Aqualium Spellblade
+    itemSprite: {fileID: 2049970702, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A bright blue magical blade. It is both powerful and has
+      the feeling of the ocean protecting you.
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12023
+    itemType: 17
+    itemDescription: Redvein Spellblade
+    itemSprite: {fileID: 1460955574, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: Redvein is used for many things, but this was a wise choice.
+      This blade contains fire within it and is ready to take down any foe in your
+      path.
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12024
+    itemType: 17
+    itemDescription: Pixium Spellblade
+    itemSprite: {fileID: -1027605824, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: Only the most powerful of pixies would wield one of these.
+      They contain magical capabilities like no other weapon.
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12025
+    itemType: 17
+    itemDescription: Sharpened Shovel
+    itemSprite: {fileID: 171013164, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: Seen in zombie horror movies, a shovel like this is actually
+      a useless weapon and you should be regretting your decision right about now.
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12026
+    itemType: 17
+    itemDescription: Revein Axe
+    itemSprite: {fileID: 1443975633, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A dangerous weapon this can kill anything if you stab it
+      enough.
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12027
+    itemType: 17
+    itemDescription: Soul Axe
+    itemSprite: {fileID: -1987255092, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: An axe said to be used by plenty of demons. This is a dark
+      weapon that should not be used by good people.
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12028
+    itemType: 17
+    itemDescription: Wooden Eagle Axe
+    itemSprite: {fileID: -1823817829, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: 'An axe that has three sharp points almost looking like
+      an eagle. '
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12029
+    itemType: 17
+    itemDescription: Samurai Blade
+    itemSprite: {fileID: -1216112048, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A long and sturdy blade. It is suprisingly quick, but also
+      suprisingly not too powerful.
+    itemUseGridRadius: 3
+    itemUserRadius: 3
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12030
+    itemType: 17
+    itemDescription: Twisted Blade
+    itemSprite: {fileID: -2038639749, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A messed up blade. This still can kill whatever target.
+    itemUseGridRadius: 3
+    itemUserRadius: 3
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12031
+    itemType: 17
+    itemDescription: Dark Whip
+    itemSprite: {fileID: 854349882, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A dark black whip. Good for slashing your opponents!
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 1
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12032
+    itemType: 17
+    itemDescription: Light Whip
+    itemSprite: {fileID: -804167420, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A white whip. Good for slashing your opponents!
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 1
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12033
+    itemType: 17
+    itemDescription: Wooden Longsword
+    itemSprite: {fileID: -932213630, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A Wooden Longsword. A great weapon for hitting opponents
+      with. It is really slow though.
+    itemUseGridRadius: 3
+    itemUserRadius: 3
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12034
+    itemType: 17
+    itemDescription: Redvein Longsword
+    itemSprite: {fileID: 789074687, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A Redvein Longsword. A great weapon for hitting opponents
+      with a lot of power. It is really slow though, but makes up with its damage.
+    itemUseGridRadius: 3
+    itemUserRadius: 3
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12035
+    itemType: 17
+    itemDescription: Pink Pixium Longsword
+    itemSprite: {fileID: 1469557545, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A Pink Pixium Longsword. A great weapon for hitting opponents
+      with a lot of magical power. It is really slow though, but is very magical.
+    itemUseGridRadius: 3
+    itemUserRadius: 3
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12036
+    itemType: 17
+    itemDescription: Purple Pixium Longsword
+    itemSprite: {fileID: 1256492409, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A Purple Pixium Longsword. A great weapon for hitting opponents
+      with a lot of dark magical power. It is really slow though, but is very magical.
+    itemUseGridRadius: 3
+    itemUserRadius: 3
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12037
+    itemType: 17
+    itemDescription: Aqualium Longsword
+    itemSprite: {fileID: 1668497710, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: An Aqualium Longsword. A great weapon for hitting opponents
+      with a lot of water magic. It is really slow though.
+    itemUseGridRadius: 3
+    itemUserRadius: 3
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12038
+    itemType: 17
+    itemDescription: Jade Longsword
+    itemSprite: {fileID: 1723759074, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A Jade Longsword. A great sturdy weapon for hitting opponents
+      with. It is really slow though.
+    itemUseGridRadius: 3
+    itemUserRadius: 3
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12039
+    itemType: 17
+    itemDescription: Darkonite Longsword
+    itemSprite: {fileID: 1647222342, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A Darkonite Longsword. A great sturdy weapon for hitting
+      opponents with. It contains an unseen darkness within it. It is really slow
+      though.
+    itemUseGridRadius: 3
+    itemUserRadius: 3
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12040
+    itemType: 17
+    itemDescription: Copper Longsword
+    itemSprite: {fileID: 122146286, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A Copper Longsword. A great sturdy weapon for hitting opponents
+      with. It is slightly more stronger than a Wooden Longsword.  It is really slow
+      though.
+    itemUseGridRadius: 3
+    itemUserRadius: 3
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12041
+    itemType: 17
+    itemDescription: Sulfurnium Longsword
+    itemSprite: {fileID: 1662492105, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A Sulfurnium Longsword. A great sturdy weapon for hitting
+      opponents with. It is rather weak for a Longsword, but it is the fastest known
+      Longsword.
+    itemUseGridRadius: 3
+    itemUserRadius: 3
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12042
+    itemType: 17
+    itemDescription: Wooden Shortslash
+    itemSprite: {fileID: 1218624620, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A Wooden Shortslash. Fast yet deals little damage with an
+      area attack.
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12043
+    itemType: 17
+    itemDescription: Redvein Shortslash
+    itemSprite: {fileID: 1415466982, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A Redvein Shortslash. Deals some damage for the weapon type,
+      but still not much. Deals area damage!
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12044
+    itemType: 17
+    itemDescription: Pixium Shortslash
+    itemSprite: {fileID: 1285395233, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A Pixium Shortslash. Deals some magical damage, but still
+      not much. Deals area damage!
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12045
+    itemType: 17
+    itemDescription: Purple Pixium Shortslash
+    itemSprite: {fileID: -1241605151, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A Purple Pixium Shortslash. Deals some dark magical damage,
+      but still not much. Deals area damage!
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12046
+    itemType: 17
+    itemDescription: Aqualium Shortslash
+    itemSprite: {fileID: -999522706, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: An Aqualium Shortslash. Deals some water damage, but still
+      not much. Deals area damage!
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12047
+    itemType: 17
+    itemDescription: Jade Shortslash
+    itemSprite: {fileID: -2052250529, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A Jade Shortslash. Deals damage, but still not much. Feels
+      sturdy. Deals area damage!
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12048
+    itemType: 17
+    itemDescription: Darkonite Shortslash
+    itemSprite: {fileID: -1629356377, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A Darkonite Shortslash. Deals a very dark damage, but still
+      not much. Deals area damage!
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12049
+    itemType: 17
+    itemDescription: Copper Shortslash
+    itemSprite: {fileID: 517314489, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A Copper Shortslash. Deals some damage, but not much. Deals
+      area damage!
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12050
+    itemType: 17
+    itemDescription: Sulfurnium Shortslash
+    itemSprite: {fileID: -1769980499, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A Sulfurnium Shortslash. Deals some damage at an intense
+      speed, but not much. Deals area damage!
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12051
+    itemType: 17
+    itemDescription: Wooden Longslash
+    itemSprite: {fileID: -589531874, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A Wooden Longslash. Deals heavy area damage. It is very
+      slow.
+    itemUseGridRadius: 3
+    itemUserRadius: 3
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12052
+    itemType: 12
+    itemDescription: Pixium Longslash
+    itemSprite: {fileID: 865706527, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A Pixium Longslash. Deals a heavy magical area damage. It
+      is very slow.
+    itemUseGridRadius: 3
+    itemUserRadius: 3
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12053
+    itemType: 17
+    itemDescription: Copper Longslash
+    itemSprite: {fileID: 470341886, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A Copper Longslash. Deals heavy area damage. It is very
+      slow.
+    itemUseGridRadius: 3
+    itemUserRadius: 3
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12054
+    itemType: 17
+    itemDescription: Jade Longslash
+    itemSprite: {fileID: -903271251, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A Jade Longslash. Deals heavy area damage and feels sturdy.
+      It is very slow.
+    itemUseGridRadius: 3
+    itemUserRadius: 3
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12055
+    itemType: 17
+    itemDescription: Purple Pixium Longslash
+    itemSprite: {fileID: 256244553, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A Purple Pixium Longslash. Deals a dark magical heavy area
+      damage. It is very slow.
+    itemUseGridRadius: 3
+    itemUserRadius: 3
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12056
+    itemType: 17
+    itemDescription: Aqualium Longslash
+    itemSprite: {fileID: 141563906, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: An Aqualium Longslash. Deals a waterfall of damage to anyone
+      in the way. It is very slow.
+    itemUseGridRadius: 3
+    itemUserRadius: 3
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12057
+    itemType: 17
+    itemDescription: Sulfurnium Longslash
+    itemSprite: {fileID: -532148618, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A Sulfurnium Longslash. Deals moderate damage, but is extremely
+      fast for the weapon type!
+    itemUseGridRadius: 3
+    itemUserRadius: 3
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 12058
+    itemType: 17
+    itemDescription: Short Samurai Blade
+    itemSprite: {fileID: -38899806, guid: f49f62e02d6d1934da60160d0848dcca, type: 3}
+    itemLongDescription: A weapon that pokes enemies. Very fun weapon with a decent
+      speed!
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 0
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 1
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 13000
+    itemType: 24
+    itemDescription: Raw Apatite
+    itemSprite: {fileID: 21300000, guid: 0e36c9d870a9f4d4cbdbf0faa16bf9fd, type: 3}
+    itemLongDescription: Place in a furnace to smelt!
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 13001
+    itemType: 24
+    itemDescription: Raw Aqualium
+    itemSprite: {fileID: 21300000, guid: 90a6ea14821a044418b65c0997cbb01c, type: 3}
+    itemLongDescription: Place in a furnace to smelt!
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 13002
+    itemType: 24
+    itemDescription: Raw Darkonite
+    itemSprite: {fileID: 21300000, guid: 9acf9e726d26ab043bc033098e3f3d32, type: 3}
+    itemLongDescription: Place in a furnace to smelt!
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 13003
+    itemType: 24
+    itemDescription: Raw Jade
+    itemSprite: {fileID: 21300000, guid: 49ce48f7095369b4d85478262fc8bac9, type: 3}
+    itemLongDescription: Place in a furnace to smelt!
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 13004
+    itemType: 24
+    itemDescription: Raw Copper
+    itemSprite: {fileID: 21300000, guid: 5efbedd870750414dbe1facb9b319aa6, type: 3}
+    itemLongDescription: Place in a furnace to smelt!
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 13005
+    itemType: 24
+    itemDescription: Raw Iron
+    itemSprite: {fileID: 21300000, guid: 77c03f8170b671744b533a5e26e2ee43, type: 3}
+    itemLongDescription: Place in a furnace to smelt!
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 13006
+    itemType: 24
+    itemDescription: Raw Steel
+    itemSprite: {fileID: 21300000, guid: ed46fe6380fd9a44f907112291eeb71b, type: 3}
+    itemLongDescription: Place in a furnace to smelt!
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 13007
+    itemType: 24
+    itemDescription: Raw Pixium
+    itemSprite: {fileID: 21300000, guid: d447f5d71fe6e9849824a8b802adfcdf, type: 3}
+    itemLongDescription: Place in a furnace to smelt!
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 13008
+    itemType: 24
+    itemDescription: Raw Purple Pixium
+    itemSprite: {fileID: 21300000, guid: 7eb321ad72f422e48b8606d2c73c2913, type: 3}
+    itemLongDescription: Place in a furnace to smelt!
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 13009
+    itemType: 24
+    itemDescription: Raw Redvein
+    itemSprite: {fileID: 21300000, guid: 104bc2fb8d9274348b3e16c81a755759, type: 3}
+    itemLongDescription: Place in a furnace to smelt!
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 13010
+    itemType: 24
+    itemDescription: Raw Sulfurnium
+    itemSprite: {fileID: 21300000, guid: bd8ab1288fb856348b98d68165e75d2c, type: 3}
+    itemLongDescription: Place in a furnace to smelt!
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 0
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 14000
+    itemType: 25
+    itemDescription: Apatite PickAXE
+    itemSprite: {fileID: 21300000, guid: 58e18346e659c0143b3affd5fee9db0f, type: 3}
+    itemLongDescription: A combo of an axe and pickaxe!
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 1
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 14001
+    itemType: 25
+    itemDescription: Aqualium PickAXE
+    itemSprite: {fileID: 21300000, guid: 28d0b242595ec4244bd07d8eab6a040d, type: 3}
+    itemLongDescription: A combo of an axe and pickaxe!
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 1
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 14002
+    itemType: 25
+    itemDescription: Darkonite PickAXE
+    itemSprite: {fileID: 21300000, guid: 10bd6293fbceae645b7025a2422ee76b, type: 3}
+    itemLongDescription: A combo of an axe and pickaxe!
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 1
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 14003
+    itemType: 25
+    itemDescription: Jade PickAXE
+    itemSprite: {fileID: 21300000, guid: 628217147e6cf514c95788f06db31995, type: 3}
+    itemLongDescription: A combo of an axe and pickaxe!
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 1
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 14004
+    itemType: 25
+    itemDescription: Copper PickAXE
+    itemSprite: {fileID: 21300000, guid: f2d6fd3c03ba2ea418f6ce5bf07be29b, type: 3}
+    itemLongDescription: A combo of an axe and pickaxe!
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 1
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 14005
+    itemType: 25
+    itemDescription: Iron PickAXE
+    itemSprite: {fileID: 21300000, guid: 88d5bbf02137af345a67a537c80e127f, type: 3}
+    itemLongDescription: A combo of an axe and pickaxe!
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 1
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 14006
+    itemType: 25
+    itemDescription: Steel PickAXE
+    itemSprite: {fileID: 21300000, guid: b25f6f53775013e47b3d70017dd1d415, type: 3}
+    itemLongDescription: A combo of an axe and pickaxe!
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 1
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 14007
+    itemType: 25
+    itemDescription: Pixium PickAXE
+    itemSprite: {fileID: 21300000, guid: a8ffb9a824e3ea249b4891b4e322ae23, type: 3}
+    itemLongDescription: A combo of an axe and pickaxe!
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 1
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 14008
+    itemType: 25
+    itemDescription: Purple Pixium PickAXE
+    itemSprite: {fileID: 21300000, guid: f7251b3581e209840b17f59adb728d97, type: 3}
+    itemLongDescription: A combo of an axe and pickaxe!
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 1
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0
+  - itemCode: 14009
+    itemType: 25
+    itemDescription: Redvein Pixium PickAXE
+    itemSprite: {fileID: 21300000, guid: db553f132645cc244990a54ddaa09f65, type: 3}
+    itemLongDescription: A combo of an axe and pickaxe!
+    itemUseGridRadius: 2
+    itemUserRadius: 2
+    isStartingItem: 0
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeEaten: 0
+    canBeCarried: 1
+    hasOwnAnimation: 0
+    isAlsoForCrafting: 0
+    MeleeWeapon: 0
+    OffHandWeapon: 0
+    MultiTool: 1
+    RawOre: 0
+    HealthIncreaseAmount: 0
+    HealingAmount: 0
+    FoodFillAmount: 0
+    EnergyFillAmount: 0
+    JoyFillAmount: 0
+    _itemPrice: 0

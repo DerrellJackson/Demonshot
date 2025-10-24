@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acc5d523627048c4e9de0c6955af5d12, type: 3}
+  m_Name: The Start
+  m_EditorClassIdentifier: 
+  objectives:
+  - reference: 1
+    description: Kill Spode
+  - reference: 2
+    description: Eat Spode
+  - reference: 3
+    description: Give Children Spode Remains
+  rewards:
+  - number: 1
+    item: {fileID: 8356574480220592469, guid: 1e045eb188b8d6e47bc1781d2f2fd4f9, type: 3}

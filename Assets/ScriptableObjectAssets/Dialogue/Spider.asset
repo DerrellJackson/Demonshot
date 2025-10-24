@@ -1,0 +1,644 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8799018485276324147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b736d3dc1871534687606713be94853, type: 3}
+  m_Name: 24687a6b-0ed3-4be5-8193-1c90ede8ca91
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: No you have far more legs than me!
+  children:
+  - 55abaa87-ab23-4f10-98e9-0cf6999687bd
+  rect:
+    serializedVersion: 2
+    x: 699
+    y: 429
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-8412905385509598275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b736d3dc1871534687606713be94853, type: 3}
+  m_Name: 5803068d-f855-4a8d-8c9d-e8b979e85810
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Good, makes a tasty meal!
+  children:
+  - 4f90f19d-d590-4d97-937a-626e026368a3
+  rect:
+    serializedVersion: 2
+    x: 914
+    y: 183
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-7881085291215559747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b736d3dc1871534687606713be94853, type: 3}
+  m_Name: 4d9c8627-0a36-4415-83ec-c9c2b9af6947
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: I am not scared!
+  children:
+  - 36b57fec-20ad-49b0-b10a-ade4df115bad
+  - 5803068d-f855-4a8d-8c9d-e8b979e85810
+  rect:
+    serializedVersion: 2
+    x: 700
+    y: 125
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-7556501026704809180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b736d3dc1871534687606713be94853, type: 3}
+  m_Name: a0dc2dba-3419-4582-a92d-b67ee5e3291f
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Eat them, I never wanted them.
+  children:
+  - 5c62f2c0-4222-41e9-8329-9658db7673d9
+  rect:
+    serializedVersion: 2
+    x: 246
+    y: 285
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-7450125730550185159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b736d3dc1871534687606713be94853, type: 3}
+  m_Name: 5c62f2c0-4222-41e9-8329-9658db7673d9
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: That's... sad.
+  children:
+  - 16fd7df3-6337-4989-b57b-40d68ccc9492
+  rect:
+    serializedVersion: 2
+    x: 480
+    y: 325
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-7255861371963067167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b736d3dc1871534687606713be94853, type: 3}
+  m_Name: 1b72e08c-1bd6-4965-b19c-58fe01ed25a7
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Take the example quest!
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1170
+    y: 314
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 1
+--- !u!114 &-5772123658211404803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b736d3dc1871534687606713be94853, type: 3}
+  m_Name: 2fde7335-e57d-41dc-b1fd-7e9d22c2a01a
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: I will eat your kids.
+  children:
+  - 9e1a904d-b14b-4359-94ce-88c3b204f954
+  - 028280d3-c822-477b-ae3a-9733e4e3997f
+  - a0dc2dba-3419-4582-a92d-b67ee5e3291f
+  - b56b9c1f-9e87-491c-ac25-ffc518083a95
+  rect:
+    serializedVersion: 2
+    x: 35
+    y: 130
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-4857407262786950378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b736d3dc1871534687606713be94853, type: 3}
+  m_Name: c2d9733e-83ae-4a9b-a424-9ce4433685dc
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: I think I will just eat you now.
+  children:
+  - 6882f96d-c1d8-4770-9c4a-6eae8e927334
+  rect:
+    serializedVersion: 2
+    x: 1156
+    y: 492
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-3749077276534962640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b736d3dc1871534687606713be94853, type: 3}
+  m_Name: 55abaa87-ab23-4f10-98e9-0cf6999687bd
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: That's what I thought.
+  children:
+  - c2d9733e-83ae-4a9b-a424-9ce4433685dc
+  rect:
+    serializedVersion: 2
+    x: 911
+    y: 431
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-3008744587384797161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b736d3dc1871534687606713be94853, type: 3}
+  m_Name: 9d9dc4bc-8ed6-49bd-8bc9-37246bac9166
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: I eat everything I see.
+  children:
+  - 6882f96d-c1d8-4770-9c4a-6eae8e927334
+  rect:
+    serializedVersion: 2
+    x: 1124
+    y: 71
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-2917020901197865323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b736d3dc1871534687606713be94853, type: 3}
+  m_Name: 6a6e3f7a-d19a-46b7-a78f-9d70d711eeee
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: I don't eat trash.
+  children:
+  - 1b72e08c-1bd6-4965-b19c-58fe01ed25a7
+  rect:
+    serializedVersion: 2
+    x: 920
+    y: 314
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-1931724711750211856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b736d3dc1871534687606713be94853, type: 3}
+  m_Name: bc0bb006-4bac-43eb-92d2-84ca9ebccb14
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Actually, I wanna start the sub quest
+  children:
+  - fa2168c4-edaa-461b-ab09-26ffb01e627d
+  rect:
+    serializedVersion: 2
+    x: 684
+    y: 673
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &-76533834992287475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b736d3dc1871534687606713be94853, type: 3}
+  m_Name: 36b57fec-20ad-49b0-b10a-ade4df115bad
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: You should be scared.
+  children:
+  - 9d9dc4bc-8ed6-49bd-8bc9-37246bac9166
+  rect:
+    serializedVersion: 2
+    x: 914
+    y: 72
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 245f7a7d485556f4aa4ca98740d6884a, type: 3}
+  m_Name: Spider
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -5772123658211404803}
+  - {fileID: 8671419308501058125}
+  - {fileID: 4499240378186860372}
+  - {fileID: 14495458620213194}
+  - {fileID: 205350668299346659}
+  - {fileID: -7881085291215559747}
+  - {fileID: -76533834992287475}
+  - {fileID: -8412905385509598275}
+  - {fileID: -3008744587384797161}
+  - {fileID: 5052971999637337724}
+  - {fileID: 4776983354061605780}
+  - {fileID: -7556501026704809180}
+  - {fileID: -7450125730550185159}
+  - {fileID: 5708250777973705116}
+  - {fileID: -2917020901197865323}
+  - {fileID: 7809839144062299760}
+  - {fileID: 2638427054441072550}
+  - {fileID: -8799018485276324147}
+  - {fileID: 8101407657200039066}
+  - {fileID: 4819044056947044262}
+  - {fileID: -3749077276534962640}
+  - {fileID: -4857407262786950378}
+  - {fileID: -1931724711750211856}
+  - {fileID: 612670513251972200}
+  - {fileID: -7255861371963067167}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &14495458620213194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b736d3dc1871534687606713be94853, type: 3}
+  m_Name: 561bd192-b179-421a-a66c-467d0946de73
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: I have more legs than you!
+  children:
+  - 4d9c8627-0a36-4415-83ec-c9c2b9af6947
+  rect:
+    serializedVersion: 2
+    x: 478
+    y: 59
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &205350668299346659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b736d3dc1871534687606713be94853, type: 3}
+  m_Name: 08a9d858-5b43-43c0-8811-37a521c4112d
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: I have more than one eye..
+  children:
+  - 4d9c8627-0a36-4415-83ec-c9c2b9af6947
+  rect:
+    serializedVersion: 2
+    x: 464
+    y: 193
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &612670513251972200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b736d3dc1871534687606713be94853, type: 3}
+  m_Name: fa2168c4-edaa-461b-ab09-26ffb01e627d
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Alright!
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 934
+    y: 673
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 2
+--- !u!114 &2638427054441072550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b736d3dc1871534687606713be94853, type: 3}
+  m_Name: 8aac044d-ae12-4d5e-b3b1-b36cf10be08f
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Wanna race and see?!
+  children:
+  - 24687a6b-0ed3-4be5-8193-1c90ede8ca91
+  - 48283c4e-6867-4ec0-9664-e56076a5bf6b
+  - bc0bb006-4bac-43eb-92d2-84ca9ebccb14
+  rect:
+    serializedVersion: 2
+    x: 477
+    y: 420
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &4499240378186860372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b736d3dc1871534687606713be94853, type: 3}
+  m_Name: 028280d3-c822-477b-ae3a-9733e4e3997f
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: I can run faster than you!
+  children:
+  - 561bd192-b179-421a-a66c-467d0946de73
+  rect:
+    serializedVersion: 2
+    x: 252
+    y: 89
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &4776983354061605780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b736d3dc1871534687606713be94853, type: 3}
+  m_Name: 6882f96d-c1d8-4770-9c4a-6eae8e927334
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Run now if you have half a brain.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1496
+    y: 224
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 3
+--- !u!114 &4819044056947044262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b736d3dc1871534687606713be94853, type: 3}
+  m_Name: 8d5bc677-2396-4765-887a-fb4f7d02521a
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Hah you would die first!
+  children:
+  - c2d9733e-83ae-4a9b-a424-9ce4433685dc
+  rect:
+    serializedVersion: 2
+    x: 917
+    y: 546
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &5052971999637337724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b736d3dc1871534687606713be94853, type: 3}
+  m_Name: 4f90f19d-d590-4d97-937a-626e026368a3
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Please do not eat me..
+  children:
+  - 6882f96d-c1d8-4770-9c4a-6eae8e927334
+  rect:
+    serializedVersion: 2
+    x: 1123
+    y: 187
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &5708250777973705116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b736d3dc1871534687606713be94853, type: 3}
+  m_Name: 16fd7df3-6337-4989-b57b-40d68ccc9492
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: I think I will just let you live.
+  children:
+  - 6a6e3f7a-d19a-46b7-a78f-9d70d711eeee
+  rect:
+    serializedVersion: 2
+    x: 707
+    y: 310
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &7809839144062299760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b736d3dc1871534687606713be94853, type: 3}
+  m_Name: b56b9c1f-9e87-491c-ac25-ffc518083a95
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: I'll eat your kids first!
+  children:
+  - 8aac044d-ae12-4d5e-b3b1-b36cf10be08f
+  rect:
+    serializedVersion: 2
+    x: 243
+    y: 393
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &8101407657200039066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b736d3dc1871534687606713be94853, type: 3}
+  m_Name: 48283c4e-6867-4ec0-9664-e56076a5bf6b
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: I would squish you first!
+  children:
+  - 8d5bc677-2396-4765-887a-fb4f7d02521a
+  rect:
+    serializedVersion: 2
+    x: 697
+    y: 544
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &8671419308501058125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b736d3dc1871534687606713be94853, type: 3}
+  m_Name: 9e1a904d-b14b-4359-94ce-88c3b204f954
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: I will stab you in your eye!
+  children:
+  - 08a9d858-5b43-43c0-8811-37a521c4112d
+  rect:
+    serializedVersion: 2
+    x: 245
+    y: 189
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 

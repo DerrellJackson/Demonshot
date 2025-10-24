@@ -1,0 +1,78 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class RandomSpawnableObject<T>
+{
+   
+    private struct chanceBoundaries
+    {
+
+        public T spawnableObject; 
+        public int lowBoundaryValue;
+        public int highBoundaryValue;
+
+    }
+
+
+    private int ratioValueTotal = 0; //spawn ratio for all the enemies
+    private List<chanceBoundaries> chanceBoundariesList = new List<chanceBoundaries>();
+    private List<SpawnableObjectsByLevel<T>> spawnableObjectsByLevelList;
+
+
+    //constructor
+    public RandomSpawnableObject(List<SpawnableObjectsByLevel<T>> spawnableObjectsByLevelList)
+    {
+
+        this.spawnableObjectsByLevelList = spawnableObjectsByLevelList;
+
+    }
+
+
+    public T GetItem() 
+    {
+
+        int upperBoundary = -1;
+        ratioValueTotal = 0;
+        chanceBoundariesList.Clear();
+        T spawnableObject = default(T); //default is a way to set it to its default without knowing its type
+
+        foreach(SpawnableObjectsByLevel<T> spawnableObjectsByLevel in spawnableObjectsByLevelList)
+        {
+            //check for current level
+            if(spawnableObjectsByLevel.dungeonLevel == OldGameManager.Instance.GetCurrentDungeonLevel())
+            {
+                foreach(SpawnableObjectRatio<T> spawnableObjectRatio in spawnableObjectsByLevel.spawnableObjectRatioList)
+                {
+                    int lowerBoundary = upperBoundary + 1;
+
+                    upperBoundary = lowerBoundary + spawnableObjectRatio.ratio - 1; 
+
+                    ratioValueTotal +=  spawnableObjectRatio.ratio;
+
+                    //add spawnable object to the list
+                    chanceBoundariesList.Add(new chanceBoundaries() { spawnableObject = spawnableObjectRatio.dungeonObject, lowBoundaryValue = lowerBoundary, highBoundaryValue = upperBoundary});
+
+                }
+            }
+        }
+
+        if(chanceBoundariesList.Count == 0) return default(T);
+
+        int lookUpValue = Random.Range(0, ratioValueTotal);
+
+        //loop through the list to get the selected random spawnable object details
+        foreach(chanceBoundaries spawnChance in chanceBoundariesList)
+        {
+            if(lookUpValue >= spawnChance.lowBoundaryValue && lookUpValue <= spawnChance.highBoundaryValue)
+            {
+                spawnableObject = spawnChance.spawnableObject;
+                break;
+            }
+        }
+        return spawnableObject;
+        
+    }
+
+
+}

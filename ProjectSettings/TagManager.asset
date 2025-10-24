@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Weapon
+  - Boss
+  - patrolPoints
+  - UI
+  - key
+  - door
+  - chest
+  - Projectile
+  - EnemyProjectile
+  - MeleeWeapon
+  - Ground_Tilemap
+  - Decoration1_Tilemap
+  - Decoration2_Tilemap
+  - Front_Tilemap
+  - Collision_Tilemap
+  - Minimap_Tilemap
+  - impossiblebag
+  - BoundsConfiner
+  - ItemsParentTransform
+  - GroundDecoration1
+  - GroundDecoration2
+  - CropsParentTransform
+  - Shop
+  - raw_ore
+  - item
+  - SeasonSwitcher
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Room
+  - Water
+  - UI
+  - Player
+  - Enemy
+  - EnemyAmmo
+  - Weapon
+  - Trap
+  - Boss
+  - Wall
+  - Particle
+  - Minimap
+  - PlayerWeapon
+  - Camera 1
+  - Camera 2
+  - Camera 3
+  - PlayerAmmo
+  - IgnoreAmmo
+  - Environment
+  - EnemyWeapon
+  - PlayerNoEnter
+  - BulletNoEnter
+  - Collision
+  - Weed
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 791730909
+    locked: 0
+  - name: GroundDecoration1
+    uniqueID: 2846260291
+    locked: 0
+  - name: BelowDecor
+    uniqueID: 170278883
+    locked: 0
+  - name: Ground2
+    uniqueID: 2255463121
+    locked: 0
+  - name: Ground3
+    uniqueID: 815675821
+    locked: 0
+  - name: AboveDecor
+    uniqueID: 3154231719
+    locked: 0
+  - name: GroundDecoration2
+    uniqueID: 2228937479
+    locked: 0
+  - name: GroundDecoration3
+    uniqueID: 150426325
+    locked: 0
+  - name: Blood
+    uniqueID: 370907267
+    locked: 0
+  - name: DestroyedObjects
+    uniqueID: 40032363
+    locked: 0
+  - name: Door
+    uniqueID: 215619071
+    locked: 0
+  - name: lock
+    uniqueID: 4154899973
+    locked: 0
+  - name: Trap
+    uniqueID: 782308225
+    locked: 0
+  - name: Enemy
+    uniqueID: 1246739701
+    locked: 0
+  - name: GhostEnemy
+    uniqueID: 1186018259
+    locked: 0
+  - name: EnemyBullet
+    uniqueID: 3738834357
+    locked: 0
+  - name: Bushes
+    uniqueID: 1643208465
+    locked: 0
+  - name: Objects
+    uniqueID: 751855673
+    locked: 0
+  - name: Item
+    uniqueID: 1955908995
+    locked: 0
+  - name: chest
+    uniqueID: 3992640795
+    locked: 0
+  - name: Block
+    uniqueID: 2766276997
+    locked: 0
+  - name: Player
+    uniqueID: 1154205595
+    locked: 0
+  - name: BackGroundUI
+    uniqueID: 45461131
+    locked: 0
+  - name: Instances
+    uniqueID: 3033640099
+    locked: 0
+  - name: chestTop
+    uniqueID: 3499825803
+    locked: 0
+  - name: Bullet
+    uniqueID: 3700468181
+    locked: 0
+  - name: Weapon
+    uniqueID: 508777249
+    locked: 0
+  - name: MeleeWeapon
+    uniqueID: 2801279413
+    locked: 0
+  - name: Particles
+    uniqueID: 2647397777
+    locked: 0
+  - name: Front
+    uniqueID: 3134129087
+    locked: 0
+  - name: Front2
+    uniqueID: 2532791599
+    locked: 0
+  - name: FrontDecor1
+    uniqueID: 879488837
+    locked: 0
+  - name: Collision
+    uniqueID: 912268509
+    locked: 0
+  - name: DamagePopup
+    uniqueID: 3402430379
+    locked: 0
+  - name: Minimap
+    uniqueID: 671240717
+    locked: 0
+  - name: PauseMenu
+    uniqueID: 1526009567
+    locked: 0
