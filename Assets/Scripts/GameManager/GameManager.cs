@@ -289,7 +289,7 @@ public class GameManager : SingletonMonobehaviour<GameManager>
 
         //set the multiplier to 1
         scoreMultiplier = 1;
-        start();
+
     }
 
 

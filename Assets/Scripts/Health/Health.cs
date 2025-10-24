@@ -14,7 +14,7 @@ public class Health : MonoBehaviour
    #region Tooltip
    [Tooltip("Populate with the HealthBarComponent on the HealthBar gameObject")]
    #endregion
-   [SerializeField] public HealthBar healthBar;
+   [SerializeField] private HealthBar healthBar;
 
    #region Tooltip
    [Tooltip("Check if the health component is meant for an object with a health bar")]

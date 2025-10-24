@@ -182,10 +182,7 @@ public class Player : SingletonMonobehaviour<Player>
         afterPickAnimationPause = new WaitForSeconds(Settings.afterPickAnimationPause);
 
         //set the player starting health
-        if (FindObjectOfType<Health>().healthBar != null)
-        {
-            SetPlayerHealth();
-        }
+        SetPlayerHealth();
 
         instance = this;
     }
